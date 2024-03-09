@@ -116,7 +116,7 @@ function Notif.New(text, timee)
     uicorner_2.Parent = text_button
 
     local image_button = Instance.new("ImageButton")
-    image_button.Image = "rbxassetid://16633756996"
+    image_button.Image = "rbxassetid://15860672267"
     image_button.ImageColor3 = Color3.new(0.784314, 0.784314, 0.784314)
     image_button.ImageRectOffset = Vector2.new(924, 724)
     image_button.ImageRectSize = Vector2.new(36, 36)
@@ -198,8 +198,8 @@ end)
 
 UIGradient.Parent = UIStroke
 
-if game:GetService("CoreGui"):FindFirstChild("Hưng Hub") then
-    game:GetService("CoreGui"):FindFirstChild("Hưng Hub"):Destroy()
+if game:GetService("CoreGui"):FindFirstChild("AppleHub") then
+    game:GetService("CoreGui"):FindFirstChild("AppleHub"):Destroy()
 end
 
 repeat wait(1) until game:IsLoaded()
@@ -293,14 +293,14 @@ function Update:Window(text,logo,keybind)
     local keybind = keybind or Enum.KeyCode.RightControl
     local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 
-    local HUNG HUB = Instance.new("ScreenGui")
-    HUNG HUB.Name = "HUNG HUB"
-    HUNG HUB.Parent = game.CoreGui
-    HUNG HUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    local THUNDERZHUB = Instance.new("ScreenGui")
+    THUNDERZHUB.Name = "THUNDERZHUB"
+    THUNDERZHUB.Parent = game.CoreGui
+    THUNDERZHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
     local Main = Instance.new("Frame")
     Main.Name = "Main"
-    Main.Parent = HUNG HUB
+    Main.Parent = THUNDERZHUB
     Main.ClipsDescendants = true
     Main.AnchorPoint = Vector2.new(0.5,0.5)
     Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -1922,7 +1922,7 @@ return uitab
 end
 ---- Káº¿t KhÃºc Ui
 
-function intiHưng Hub() 
+function intiAppleHub() 
 _G.antiscan = true
 getgenv().A = require(game:GetService("ReplicatedStorage").CombatFramework.RigLib).wrapAttackAnimationAsync
 getgenv().B = require(game.Players.LocalPlayer.PlayerScripts.CombatFramework.Particle).play
