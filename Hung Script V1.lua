@@ -116,7 +116,7 @@ function Notif.New(text, timee)
     uicorner_2.Parent = text_button
 
     local image_button = Instance.new("ImageButton")
-    image_button.Image = "rbxassetid://16633756996"
+    image_button.Image = "rbxassetid://15860672267"
     image_button.ImageColor3 = Color3.new(0.784314, 0.784314, 0.784314)
     image_button.ImageRectOffset = Vector2.new(924, 724)
     image_button.ImageRectSize = Vector2.new(36, 36)
@@ -402,7 +402,7 @@ function Update:Window(text,logo,keybind)
     UserImage.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://16633756996"
+    UserImage.Image = "rbxassetid://"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -415,7 +415,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://16633756996"
+	Logo.Image = "rbxassetid://15860672267"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -826,7 +826,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://16633756996"
+        ImageButton.Image = "rbxassetid://15860672267"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -936,7 +936,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://16633756996"
+        ImageLabel.Image = "rbxassetid://15860672267"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
@@ -970,7 +970,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         ImageButton.Position = UDim2.new(0, 352, 0, 4)
         ImageButton.Size = UDim2.new(0, 23, 0, 23)
         ImageButton.ZIndex = 2
-        ImageButton.Image = "rbxassetid://16633756996"
+        ImageButton.Image = "rbxassetid://3926311105"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
         ImageButton.ImageRectOffset = Vector2.new(940, 784)
         ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -1088,7 +1088,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://16633756996"
+        DropImage.Image = "rbxassetid://6031090990"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
@@ -1290,7 +1290,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://16633756996"
+        ImageLabel.Image = "rbxassetid://15860672267"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -5756,7 +5756,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=16633756996",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5768,7 +5768,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=16633756996",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5780,7 +5780,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=16633756996",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5792,7 +5792,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=16633756996",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -5802,7 +5802,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=16633756996",
+									Icon = "http://www.roblox.com/asset/?id=15860672267",
 									Duration = 2.5
 								})
 							else
@@ -5813,7 +5813,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=16633756996",
+							Icon = "http://www.roblox.com/asset/?id=15860672267",
 							Duration = 2.5
 						})
 					end
@@ -7052,7 +7052,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://16633756996",
+        Icon = "rbxassetid://15860672267",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })
