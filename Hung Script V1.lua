@@ -1088,7 +1088,7 @@ Page.Image = "http://www.roblox.com/asset/?id=" .. tostring(15860678315)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://6031090990"
+        DropImage.Image = "rbxassetid://16633756996"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
